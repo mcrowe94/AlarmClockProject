@@ -6,6 +6,7 @@ namespace AlarmClockProject
     // parse the time
     // start timer
     // alert user after time up
+    // made some changes
     class Program
     {
         static void Main(string[] args)
