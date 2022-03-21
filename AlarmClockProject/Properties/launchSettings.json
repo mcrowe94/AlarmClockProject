@@ -2,7 +2,7 @@
   "profiles": {
     "AlarmClockProject": {
       "commandName": "Project",
-      "commandLineArgs": "12:00"
+      "commandLineArgs": "5:00"
     }
   }
 }

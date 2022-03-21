@@ -12,10 +12,13 @@ namespace AlarmClockProject
         {
             var userTime = (args[0]);
             var parseTime = DateTime.Parse(userTime);
-            var current = DateTime.Now;
 
-            Console.WriteLine(parseTime);
-            Console.WriteLine(current);
+            if(DateTime.Now.Hour == parseTime.Hour && DateTime.Now.Minute == parseTime.Minute)
+            {
+                //play YouTube Video
+            }
+
+            
 
                       
             
