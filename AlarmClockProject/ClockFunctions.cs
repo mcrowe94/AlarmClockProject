@@ -43,7 +43,7 @@ namespace AlarmClockProject
             ConsoleLogging.PassMessage("--time for current time" +
                     "\n--alarm plus time to go off for alarm function" +
                     "\n--stopwatch for stopwatch function" +
-                    "\n--help for help options");
+                    "\n--clockhelp for help options");
         }
     }
 }

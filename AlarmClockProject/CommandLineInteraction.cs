@@ -22,7 +22,7 @@ namespace AlarmClockProject
             {
                 ClockFunctions.DisplayTime();
             }
-            else if (args[0] == "--help")
+            else if (args[0] == "--clockhelp")
             {
                 ClockFunctions.HelpMenu();
             }
