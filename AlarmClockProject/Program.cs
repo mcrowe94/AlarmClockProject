@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace AlarmClockProject
 {
@@ -10,18 +11,27 @@ namespace AlarmClockProject
     {
         static void Main(string[] args)
         {
-            var userTime = (args[0]);
-            var parseTime = DateTime.Parse(userTime);
+            
+            //var stopWatch = new Stopwatch();
+            
 
-            if(DateTime.Now.Hour == parseTime.Hour && DateTime.Now.Minute == parseTime.Minute)
+            if (args[0] == "--alarm")
             {
-                //play YouTube Video
+                var userTime = args[1];
+                var parseTime = DateTime.Parse(userTime);
+                Console.WriteLine(parseTime);
+
+                if(DateTime.Now.Hour == parseTime.Hour && DateTime.Now.Minute == parseTime.Minute)
+                {
+                    //play Youtube
+                }
             }
 
-            
 
-                      
-            
+
+
+
+
         }
     }
 }
